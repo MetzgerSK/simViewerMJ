@@ -1,0 +1,34 @@
+Type: Compendium
+Package: simViewerMJ
+Title: Simulation results viewer
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Shawna",
+			 middle = "K.",
+			 family = "Metzger",
+			 role = c("aut", "cre"),
+			 email = "shawna@shawnakmetzger.com"
+			 comments = c(Affiliation = "Dept. of Politics, UVA")),
+	  person(given = "Benjamin",
+			 middle = "T.",
+			 family = "Jones",
+			 role = c("aut"),
+			 email = "btjones1@olemiss.edu",
+			 comments = c(Affiliation = "Dept. of Political Science, Ole Miss"))
+	)
+Description: Shiny app to view simulation results from
+    Metzger and Jones' "Getting Time Right"
+License: N/A
+Depends: 
+    digest,
+    dplyr,
+    fs,
+    hashids,
+    magrittr,
+    shiny,
+    shinyBS,
+    shinyjs,
+    shinyWidgets,
+    stringr
+Encoding: UTF-8
+LazyData: true
